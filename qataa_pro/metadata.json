@@ -1,0 +1,8 @@
+{
+  "name": "Qataa: Pro AI Video Editor 2",
+  "description": "An offline Android powerhouse for 4K splitting, AI-driven editing, cinematic effects, and professional-grade compression without losing quality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
