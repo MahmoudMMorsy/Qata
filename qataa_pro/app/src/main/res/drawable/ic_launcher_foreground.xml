@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Cinematic Border Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1473E6"
+        android:strokeWidth="2.5"
+        android:pathData="M54,20 A 34 34 0 1 1 53.9,20 Z" />
+
+    <!-- Film strip ticks around the circle -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M54,12l0,4 M54,92l0,4 M12,54l4,0 M92,54l4,0 M24,24l3,3 M84,84l3,3 M24,84l3,-3 M84,24l3,-3"
+        android:strokeColor="#FFA500"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Left Handle Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:pathData="M40,64 C40,70.5 35.5,75 30,75 C24.5,75 20,70.5 20,64 C20,57.5 24.5,53 30,53 C35.5,53 40,57.5 40,64 Z" />
+
+    <!-- Right Handle Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:pathData="M88,64 C88,70.5 83.5,75 78,75 C72.5,75 68,70.5 68,64 C68,57.5 72.5,53 78,53 C83.5,53 88,57.5 88,64 Z" />
+
+    <!-- Left Blade to Top Right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,57 L74,32 L68,28 L30,53 Z" />
+
+    <!-- Right Blade to Top Left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,57 L34,32 L40,28 L78,53 Z" />
+
+    <!-- Central Pivot Joint -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M54,46 A 3.5 3.5 0 1 1 53.9,46 Z" />
+</vector>
